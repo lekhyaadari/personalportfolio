@@ -3,15 +3,60 @@
     <head>
         <meta charset = "utf-8">
         <title>Lekhya Adari Personal Website</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 style="text-align:center; color:rgb(63, 16, 107); font-size:200%;">Contact</h1>
-        <nav style = "text-align:center; background-color:rgb(160, 93, 189); font-size: 120%;">
+        <nav id="nav">
             <a href="personal_website.html">Home</a>
+            <a href="./resume.html">My Resume</a>
+            <a href="./works.html">My Digital Works</a>
+            <a href="./about.html">About Me</a>
+            <a href="./contact.html">Contact Me</a>
         </nav>
-        <p style = "text-align:center; background-color:rgb(235, 222, 247); font-size:120%;">
-            You can find me by email: adarilekhya@gmail.com <br>
-            or through Instagram: @lekhyaadari
-        </p>
+        <p></p>
+        <h1 id="head">CONTACT</h1>
+        <div id="little">
+            <p id="little">Email me at adarilekhya@gmail.com for business inquiries</p>
+            <p id="little">You can find me on Instagram: @lekhyaadari and @midnight_rozes</p>
+            <p id="little">LinkedIn: Lekhya Adari</p>
+            <p id="little">X (formerly Twitter): @adarilekhya</p>
+            <p id="little">and on Redbubble!</p>
+            <p>click on the icons below to be redirected directly to my profiles!</p>
+        </div>
+        <div class="socials">
+            <a href="https://www.instagram.com/lekhyaadari/" target="_blank">
+                <img id="socialmedia" src="igicon.png">
+            </a>
+            <a href="https://www.instagram.com/midnight_rozes/" target="_blank">
+                <img id="socialmedia" src="igicon.png">
+            </a>
+            <a href="www.linkedin.com/in/lekhya-adari-862512264" target="_blank">
+                <img id="socialmedia" src="LNKDIN.png">
+            </a>
+            <a href="https://twitter.com/adarilekhya" target="_blank">
+                <img id="socialmedia" src="twitter.webp">
+            </a>
+            <a href="https://www.redbubble.com/people/midnightrozes/shop?asc=u" target="_blank">
+                <img id="socialmedia" src="redbubble.png">
+            </a>
+        </div>
+        <div class="image-container">
+        </div>
+        <p id="noback">Do not hesitate to contact me!</p>
+        <div id="contact">
+            <label><b>Name</b></label>
+            <input id="input" type="text" required name="Name">
+        </div>
+        <div id="contact">
+            <label><b>Email</b></label>
+            <input id="input" type="text" required name="Email">
+        </div>
+        <div id="contact">
+            <label><b>Message</b></label>
+            <input id="input" style="height: 45px;" name="Message">
+        </div>
+        <div class="button">
+            <button type="submit" id="send">Send</button>
+        </div>
     </body>
 </html>

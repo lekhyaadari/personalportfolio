@@ -3,16 +3,43 @@
     <head>
         <meta charset = "utf-8">
         <title>Lekhya Adari Personal Website</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 style="text-align:center; color:rgb(63, 16, 107); font-size:400%;">My Works</h1>
-        <nav style = "text-align:center; background-color:rgb(160, 93, 189); font-size: 120%;">
+        <nav id="nav">
             <a href="personal_website.html">Home</a>
+            <a href="./resume.html">My Resume</a>
+            <a href="./works.html">My Digital Works</a>
+            <a href="./about.html">About Me</a>
+            <a href="./contact.html">Contact Me</a>
         </nav>
-        <p style="text-align:center; background-color:rgb(235, 222, 247); font-size:120%;">photography and digital work</p>
-        <img src="1.jpg" width="640" length="360">
-        <img src="2.jpg" width="640" length="360">
-        <p style="text-align:center; background-color:rgb(235, 222, 247); font-size:120%;">video edits on youtube! @lekhyaadari</p>
-        <img src="nyc.png" width="640" length="360">
+        <p></p>
+        <h1 id="head">MY WORKS</h1>
+        <p id="big">photography and digital work</p>
+        <div class="image-container">
+            <img src="1.jpg" width="640" length="360">
+            <img src="2.jpg" width="640" length="360">
+            <img src="LCposter.JPEG">
+            <img src="NYCposter.JPEG">
+        </div>
+        <p id="big">video edits on youtube! @lekhyaadari</p>
+        <p id="noback">click on the image to view the video!</p>
+        <div class="image-container">
+            <a href="https://www.youtube.com/watch?v=P8Tt4TWYNhA&t=24s" target="_blank">
+                <img src="nyc.png" width="640" length="360" alt="Clickable Image">
+            </a>
+            <a href="https://www.youtube.com/watch?v=N9c62w6WelA&t=222s" target="_blank">
+                <!-- THE VIDEO LINKED IS NOT THE NEW YORK ONE!!! IT IS THE CHRISTMAS ONE SO SWITCH THE LINKS / ADD A NEW IMAGE!! -->
+                <img src="grwm.jpg" width="640" length="360" alt="Clickable Image">
+            </a>
+        </div>
+        <p id="noback">view more on my Youtube Channel!</p>
+        <p id="big">video edits! ~non-published~</p>
+        <div class="image-container">
+            <video width="640" length="360" controls>
+                <!-- attach another non yt video here and create another section to seperate the ones already on YT vs the non YT ones -->
+                <source src="DITL.mp4" type="video/mp4">
+            </video>
+        </div>
     </body>
 </html>
